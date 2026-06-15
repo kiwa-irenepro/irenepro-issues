@@ -1,0 +1,49 @@
+name: Bug report
+description: Meld een fout in IrenePro
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Beschrijving
+      description: Beschrijf duidelijk wat er misgaat
+      placeholder: Wat gebeurde er?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Stappen om te reproduceren
+      placeholder: |
+        1. Ga naar...
+        2. Klik op...
+        3. Zie fout...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Verwacht gedrag
+      placeholder: Wat had er moeten gebeuren?
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Versie
+      placeholder: bv. 1.2.3
+
+  - type: input
+    id: environment
+    attributes:
+      label: Omgeving
+      placeholder: bv. Windows / Browser / etc.
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / extra info

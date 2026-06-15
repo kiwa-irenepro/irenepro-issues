@@ -1,0 +1,17 @@
+name: Vraag / support
+description: Stel een vraag over IrenePro
+title: "[QUESTION] "
+labels: ["question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Vraag
+      placeholder: Stel hier je vraag
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context

@@ -1,0 +1,29 @@
+name: Feature request
+description: Stel een verbetering of nieuwe functionaliteit voor
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Probleem
+      description: Welk probleem lost dit op?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Gewenste oplossing
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatieven overwogen
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Extra context
