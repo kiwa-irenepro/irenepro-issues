@@ -19,11 +19,18 @@ body:
       required: true
 
   - type: textarea
-    id: alternatives
-    attributes:
-      label: Alternatieven overwogen
-
-  - type: textarea
     id: extra
     attributes:
       label: Extra context
+  
+  - type: input
+    id: company
+    attributes:
+      label: Bedrijfsnaam
+      placeholder: Namens welk bedrijf wordt de bug gemeld
+  
+  - type: input
+    id: contact
+    attributes:
+      label: Contact informatie
+      placeholder: Naam of email adres van de contact persoon
