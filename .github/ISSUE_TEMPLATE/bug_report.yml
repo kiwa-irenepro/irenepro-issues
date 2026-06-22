@@ -42,6 +42,22 @@ body:
     attributes:
       label: Omgeving
       placeholder: bv. Windows / Browser / etc.
+  
+  - type: input
+    id: company
+    attributes:
+      label: Bedrijfsnaam
+      placeholder: Namens welk bedrijf wordt de bug gemeld
+   validations:
+      required: true
+  
+  - type: input
+    id: contact
+    attributes:
+      label: Contact informatie
+      placeholder: Naam of email adres van de contact persoon
+   validations:
+      required: true
 
   - type: textarea
     id: screenshots
