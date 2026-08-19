@@ -25,5 +25,5 @@ body:
   - type: input
     id: contact
     attributes:
-      label: Contact informatie
-      placeholder: Naam of email adres van de contact persoon
+      label: Contactinformatie
+      placeholder: Naam of emailadres van de contactpersoon
